@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --reservation=workshop_2021      # standard (default), long, gpu, mpi, highmem
+#SBATCH --reservation=workshop_2022      # standard (default), long, gpu, mpi, highmem
 #SBATCH --cpus-per-task=1         # number of CPUs requested (for parallel tasks)
 #SBATCH --mem=2G    # requested memory
 #SBATCH --time=0-04:00:00          # wall clock limit (d-hh:mm:ss)
