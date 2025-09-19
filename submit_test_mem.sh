@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --reservation=workshop_2022      # standard (default), long, gpu, mpi, highmem
+#SBATCH --reservation=workshop_20250919      # standard (default), long, gpu, mpi, highmem
 #SBATCH --cpus-per-task=1         # number of CPUs requested (for parallel tasks)
 #SBATCH --mem=1G    # requested memory (change 1G to have out of memory)
 #SBATCH --time=0-04:00:00          # wall clock limit (d-hh:mm:ss)
@@ -14,8 +14,7 @@
 
 # Load necessary modules.
 
-module load python/booth/3.8/3.8.5
-sleep 10
+module load python/booth/3.12
 #---------------------------------------------------------------------------------
 
 # Run Python files here.
